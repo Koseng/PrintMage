@@ -1,7 +1,7 @@
 param (
-    $pathWorkDir = "C:\temp tt",
-    $pdfFullPath = "C:\temp tt\track.pdf",
-    $pdfFileBaseName = "track"
+    $pathWorkDir = "C:\printmage",
+    $pdfFullPath = "C:\printmage\test.pdf",
+    $pdfFileBaseName = "test"
 )
 
 try {
@@ -13,7 +13,7 @@ if([System.IO.File]::Exists($logFile)){ Remove-Item $logFile }
 
 Function LogWrite {
   Param ([string]$logstring)
-  $dateString = [System.DateTime]::Now.ToString("yyyy-MM-dd HH:mm:ss")
+  $dateString = [System.DateTime]::Now.ToString("yyyy-MM-ddÂ HH:mm:ss")
   Write-Host "$dateString $logstring"
   Add-content $logFile -value "$dateString $logstring"
 }
