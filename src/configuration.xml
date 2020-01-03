@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Check regular expressions for example on https://regex101.com/ -->
+<Config Version="1">
+    <ConditionOnlyOnFirstPage>1</ConditionOnlyOnFirstPage>
+    <DeleteOriginalPdf>0</DeleteOriginalPdf>
+    <DeleteTemporaryFiles>1</DeleteTemporaryFiles>
+    <PathPDF24>C:\Program Files (x86)\PDF24</PathPDF24>
+    <DefaultPrinterName>HP Officejet 4500</DefaultPrinterName>
+    <PrintConditions>
+        <PrintCondition Name="Meldeliste" IncludeRegEx="MELDELISTE" ExcludeRegEx="" Copies="3" PrinterName="HP Officejet 4500" />
+        <PrintCondition Name="WettkampfListe Lauf"  IncludeRegEx="WETTKAMPFLISTE[\s\S]*[^,][0-9]{2,3}m" ExcludeRegEx="" Copies="3" PrinterName="Brother HL-5270DN series" />
+        <PrintCondition Name="WettkampfListe Technisch" IncludeRegEx="WETTKAMPFLISTE" ExcludeRegEx="[^,][0-9]{2,3}m" Copies="3" PrinterName="Brother HL-5270DN series" />
+        <PrintCondition Name="Ergebnisliste" IncludeRegEx="ERGEBNISSE" ExcludeRegEx="" Copies="3" PrinterName="HP Officejet 4500" />
+    </PrintConditions>
+</Config>
