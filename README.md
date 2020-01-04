@@ -18,6 +18,7 @@ The software is licensed under [GPL v3](https://www.gnu.org/licenses/gpl-3.0.htm
 Just use the PDF24 printer driver from your application. Tested with PDF24 Creator 9.0.1 and Xpdf 4.02.
 
 ## PrintMage configuration
+Edit the file configuration.xml:
 ![Picture Config](pics/configuration.JPG)
 
 #### ConditionOnlyOnFirstPage
