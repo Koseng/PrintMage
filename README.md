@@ -7,7 +7,7 @@ The software is licensed under [GPL v3](https://www.gnu.org/licenses/gpl-3.0.htm
 
 ## Quick installation guide
 - Download and install [PDF24 Creator](https://pdf24.org)
-- Download PrintMage-Release-ZIP and extract to a folder, e.g. `c:\printmage`
+- Download [PrintMage-Release.zip](https://github.com/Koseng/PrintMage/releases) and extract to a folder, e.g. `c:\printmage`
 - Change settings in PDF24 (`C:\Program Files (x86)\PDF24\pdf24-Settings.exe`)
     - Set PDF Printer -> PDF Printer Tool -> "Automatically save documents after printed"
     - Set PDF Printer -> Auto Save -> "Execute the following command after Saving.  
